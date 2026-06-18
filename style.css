@@ -115,4 +115,18 @@ body{
 .barra-eq:nth-child(3){
     animation-delay: 0.4s;
 }
-
+@media (max-width:480px){
+    .bloco-horario h2{
+        font-size: 38px;
+    }
+    .play-music{
+        font-size: 38px;
+    }
+    .play-music p{
+        font-size: 14px;
+    }
+    .relogio-corpo {
+        width: 240px;
+        height: 290px;
+    }
+}
